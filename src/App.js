@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './bunnylogo.png';
 import './App.css';
 
 function App() {
@@ -6,17 +6,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
+        <h1 style={{ fontSize: '1em'}}> Andi's Coding Portfolio</h1>
+        <h2 style={{ fontSize: '0.8em'}}> Later this will be a portfolio for all my STEM stuff!</h2>
+        <div>
+          <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://andi-counter-app.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          >
+            My Counter App!
+          </a>
+        </div>
       </header>
     </div>
   );

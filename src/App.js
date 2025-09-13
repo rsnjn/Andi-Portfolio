@@ -17,6 +17,14 @@ function App() {
           >
             My Counter App!
           </a>
+          <a
+          className="App-link"
+          href="https://tutoring-hub-cyan.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            My Tutoring Hub App!
+          </a>  
         </div>
       </header>
     </div>
